@@ -1,13 +1,15 @@
 # AirstrikeGame
 
-![screenshot](dansehayek.github.com/AirstrikeGame/Airstrike Gameplay.png)
+![screenshot](https://raw.githubusercontent.com/DanSehayek/AirstrikeGame/master/to/Airstrike Gameplay.png)
 
-While you are guided through the controls in the tutorial: I have listed them here as well:
+![screenshot](https://dansehayek.github.com/AirstrikeGame/Airstrike Gameplay.png)
 
-Arrow keys to move
-Spacebar to shoot
-A_key to activate special ability
+# While you are guided through the controls in the tutorial: I have listed them here as well:
 
-Created using Python version 3.4.0 with the appropriate version of Pygame.
+# Arrow keys to move
+# Spacebar to shoot
+# A_key to activate special ability
 
-Note: If you do not have Python and Pygame installed on your computer but would like to play the game: I would recommend downloading all of the files in the AirstrikeExecutables repository.
+# Created using Python version 3.4.0 with the appropriate version of Pygame.
+
+# Note: If you do not have Python and Pygame installed on your computer but would like to play the game: I would recommend downloading all of the files in the AirstrikeExecutables repository.
