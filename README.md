@@ -7,6 +7,6 @@ The controls are shown in the tutorial, but I will list them here as well:
 
 Key  | Result
 ------------- | -------------
-__Arrow Keys__  | Move
-__Spacebar__  | Shoot
-__A__ | Ring of Fire!
+Arrow Keys  | Move
+Spacebar  | Shoot
+A | Ring of Fire!
