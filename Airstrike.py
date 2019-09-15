@@ -58,88 +58,84 @@ pygame.display.set_caption('Airstrike')
 
 # IMAGES #
 
-plane_img = pygame.image.load('Plane_Image2.png')
-shell_img = pygame.image.load('Shell_Image2.png')
-enemy_img = pygame.image.load('Enemy_Image3.png')
-enemy2_img = pygame.image.load('Enemy2_Image2.png')
-enemy3_img_left = pygame.image.load('Enemy3Left_Image2.png')
-enemy3_img_right = pygame.image.load('Enemy3Right_Image2.png')
-missile_img = pygame.image.load('Missile_Image.png')
-enemy_missile_img = pygame.image.load('EnemyMissile_Image.png')
-mine_img = pygame.image.load('Mine_Image.png')
+plane_img = pygame.image.load('Images/Plane_Image2.png')
+shell_img = pygame.image.load('Images/Shell_Image2.png')
+enemy_img = pygame.image.load('Images/Enemy_Image3.png')
+enemy2_img = pygame.image.load('Images/Enemy2_Image2.png')
+enemy3_img_left = pygame.image.load('Images/Enemy3Left_Image2.png')
+enemy3_img_right = pygame.image.load('Images/Enemy3Right_Image2.png')
+missile_img = pygame.image.load('Images/Missile_Image.png')
+enemy_missile_img = pygame.image.load('Images/EnemyMissile_Image.png')
+mine_img = pygame.image.load('Images/Mine_Image.png')
 
-healthPowerUp_img = pygame.image.load('HealthPowerUp_Image.png')
-shieldPowerUp_img = pygame.image.load('ShieldPowerUp_Image.png')
-freezePowerUp_img = pygame.image.load('FreezePowerUp_Image.png')
-speedPowerUp_img = pygame.image.load('SpeedPowerUp_Image.png')
-missilePowerUp_img = pygame.image.load('MissilePowerUp_Image.png')
-powerUp_img = pygame.image.load('PowerUp_Image.png')
-shield_img = pygame.image.load('Shield_Image.png')
-fire_img = pygame.image.load('Fire_Image.png')
+healthPowerUp_img = pygame.image.load('Images/HealthPowerUp_Image.png')
+shieldPowerUp_img = pygame.image.load('Images/ShieldPowerUp_Image.png')
+freezePowerUp_img = pygame.image.load('Images/FreezePowerUp_Image.png')
+speedPowerUp_img = pygame.image.load('Images/SpeedPowerUp_Image.png')
+missilePowerUp_img = pygame.image.load('Images/MissilePowerUp_Image.png')
+powerUp_img = pygame.image.load('Images/PowerUp_Image.png')
+shield_img = pygame.image.load('Images/Shield_Image.png')
+fire_img = pygame.image.load('Images/Fire_Image.png')
 
-menu_img = pygame.image.load('Menu_Image2.png')
-menu_b1_img = pygame.image.load('MenuB1_Image2.png')
-menu_b2_img = pygame.image.load('MenuB2_Image2.png')
-menu_b3_img = pygame.image.load('MenuB3_Image2.png')
-game_over_img = pygame.image.load('GameOver_Image2.png')
-game_over_b1_img = pygame.image.load('GameOverB1_Image2.png')
-game_over_b2_img = pygame.image.load('GameOverB2_Image2.png')
-settings_img = pygame.image.load('Settings_Image2.png')
-settings_b1_img = pygame.image.load('SettingsB1_Image2.png')
-settings_b2_img = pygame.image.load('SettingsB2_Image2.png')
+menu_img = pygame.image.load('Images/Menu_Image2.png')
+menu_b1_img = pygame.image.load('Images/MenuB1_Image2.png')
+menu_b2_img = pygame.image.load('Images/MenuB2_Image2.png')
+menu_b3_img = pygame.image.load('Images/MenuB3_Image2.png')
+game_over_img = pygame.image.load('Images/GameOver_Image2.png')
+game_over_b1_img = pygame.image.load('Images/GameOverB1_Image2.png')
+game_over_b2_img = pygame.image.load('Images/GameOverB2_Image2.png')
+settings_img = pygame.image.load('Images/Settings_Image2.png')
+settings_b1_img = pygame.image.load('Images/SettingsB1_Image2.png')
+settings_b2_img = pygame.image.load('Images/SettingsB2_Image2.png')
 
-tutorial_1_img = pygame.image.load('Tutorial1_Image.png')
-tutorial_2_img = pygame.image.load('Tutorial2_Image.png')
-tutorial_3_img = pygame.image.load('Tutorial3_Image.png')
-tutorial_4_img = pygame.image.load('Tutorial4_Image.png')
-tutorial_5_img = pygame.image.load('Tutorial5_Image.png')
-tutorial_6_img = pygame.image.load('Tutorial6_Image.png')
-tutorial_7_img = pygame.image.load('Tutorial7_Image.png')
-tutorial_8_img = pygame.image.load('Tutorial8_Image.png')
+tutorial_1_img = pygame.image.load('Images/Tutorial1_Image.png')
+tutorial_2_img = pygame.image.load('Images/Tutorial2_Image.png')
+tutorial_3_img = pygame.image.load('Images/Tutorial3_Image.png')
+tutorial_4_img = pygame.image.load('Images/Tutorial4_Image.png')
+tutorial_5_img = pygame.image.load('Images/Tutorial5_Image.png')
+tutorial_6_img = pygame.image.load('Images/Tutorial6_Image.png')
+tutorial_7_img = pygame.image.load('Images/Tutorial7_Image.png')
+tutorial_8_img = pygame.image.load('Images/Tutorial8_Image.png')
 
-number0_img = pygame.image.load('Number0_Image.png')
-number1_img = pygame.image.load('Number1_Image.png')
-number2_img = pygame.image.load('Number2_Image.png')
-number3_img = pygame.image.load('Number3_Image.png')
-number4_img = pygame.image.load('Number4_Image.png')
-number5_img = pygame.image.load('Number5_Image.png')
-number6_img = pygame.image.load('Number6_Image.png')
-number7_img = pygame.image.load('Number7_Image.png')
-number8_img = pygame.image.load('Number8_Image.png')
-number9_img = pygame.image.load('Number9_Image.png')
+number0_img = pygame.image.load('Images/Number0_Image.png')
+number1_img = pygame.image.load('Images/Number1_Image.png')
+number2_img = pygame.image.load('Images/Number2_Image.png')
+number3_img = pygame.image.load('Images/Number3_Image.png')
+number4_img = pygame.image.load('Images/Number4_Image.png')
+number5_img = pygame.image.load('Images/Number5_Image.png')
+number6_img = pygame.image.load('Images/Number6_Image.png')
+number7_img = pygame.image.load('Images/Number7_Image.png')
+number8_img = pygame.image.load('Images/Number8_Image.png')
+number9_img = pygame.image.load('Images/Number9_Image.png')
 
-explosion_e1_img = pygame.image.load('ExplosionE1_Image.png')
-explosion2_e1_img = pygame.image.load('ExplosionE1_Image2.png')
-explosion_e2_img = pygame.image.load('ExplosionE2_Image.png')
-explosion2_e2_img = pygame.image.load('ExplosionE2_Image2.png')
-mine_explosion_img = pygame.image.load('MineExplosion_Image.png')
-mine_explosion2_img = pygame.image.load('MineExplosion_Image2.png')
+explosion_e1_img = pygame.image.load('Images/ExplosionE1_Image.png')
+explosion2_e1_img = pygame.image.load('Images/ExplosionE1_Image2.png')
+explosion_e2_img = pygame.image.load('Images/ExplosionE2_Image.png')
+explosion2_e2_img = pygame.image.load('Images/ExplosionE2_Image2.png')
+mine_explosion_img = pygame.image.load('Images/MineExplosion_Image.png')
+mine_explosion2_img = pygame.image.load('Images/MineExplosion_Image2.png')
 
-game_icon = pygame.image.load('Game_Icon.png')
-game_background = pygame.image.load('GameBackground_Image.png')
-checkmark_img = pygame.image.load('Checkmark_Image.png')
-score_img = pygame.image.load('Score_Image.png')
-home_button_img = pygame.image.load('HomeButton_Image2.png')
-transparent_img = pygame.image.load('Transparent_Image.png')
+game_icon = pygame.image.load('Images/Game_Icon.png')
+game_background = pygame.image.load('Images/GameBackground_Image.png')
+checkmark_img = pygame.image.load('Images/Checkmark_Image.png')
+score_img = pygame.image.load('Images/Score_Image.png')
+home_button_img = pygame.image.load('Images/HomeButton_Image2.png')
+transparent_img = pygame.image.load('Images/Transparent_Image.png')
 
 # GAME ICON #
-
 pygame.display.set_icon(game_icon)
 
 # SOUNDS #
-
-button_hover_sound = pygame.mixer.Sound("Button_Sound.wav")
-button_confirm_sound = pygame.mixer.Sound("Button_Sound2.wav")
-powerup_sound = pygame.mixer.Sound("PowerUp_Sound4.wav")
-hit_sound = pygame.mixer.Sound("Hit_Sound2.wav")
-hit_sound2 = pygame.mixer.Sound("Hit_Sound3.wav")
+button_hover_sound = pygame.mixer.Sound("Audio/Button_Sound.wav")
+button_confirm_sound = pygame.mixer.Sound("Audio/Button_Sound2.wav")
+powerup_sound = pygame.mixer.Sound("Audio/PowerUp_Sound4.wav")
+hit_sound = pygame.mixer.Sound("Audio/Hit_Sound2.wav")
+hit_sound2 = pygame.mixer.Sound("Audio/Hit_Sound3.wav")
 
 # CLOCK #
-
 clock = pygame.time.Clock()
 
 # FUNCTIONS #
-
 def score(number, x_pos, y_pos):
 
     number = str(number)
@@ -208,15 +204,15 @@ class Main_Menu:
             if click[0] == 1:       #If the left mouse button is clicked
 
                 pygame.mixer.Sound.play(button_confirm_sound)
-            
+
                 if action == "quit":        #Quits if the user clicks the QUIT button
                     pygame.quit()
                     quit()
-                    
+
                 elif action == "settings":      #Goes to the settings menu if the user clicks the SETTINGS button
                     settings.run = True
                     self.run = False
-                    
+
                 elif action == "play":      #Goes to the game if the user clicks the PLAY button and resets attributes if the user has already played at least once
                     player.health = 100
                     player.x = display_width / 2 - plane_width / 2
@@ -330,12 +326,12 @@ class Game_Over:
             if click[0] == 1:
 
                 pygame.mixer.Sound.play(button_confirm_sound)
-            
+
                 if action == "quit":        #Allows the user to quit if they click the QUIT button
                     pygame.quit()
                     quit()
-                    
-                elif action == "play":      #Allows the user to play again if they click the PLAY AGAIN button and resets attributes accordingly 
+
+                elif action == "play":      #Allows the user to play again if they click the PLAY AGAIN button and resets attributes accordingly
                     player.health = 100
                     player.x = display_width / 2 - plane_width / 2
                     player.y = display_height * 0.8
@@ -384,7 +380,7 @@ class Game_Over:
                     enemy3.y = 0
                     bullet.fire = False
                     gameLoop()
-                    
+
                 elif action == "menu":      #Allows the user to go to the main menu if they click the home button
                     self.run = False
                     self.menu = True
@@ -405,7 +401,7 @@ class Game_Over:
                 self.button_2 = "Inactive"
             elif action == "play":
                 self.button_1 = "Inactive"
-                    
+
 class Settings:
 
     def __init__(self):
@@ -452,7 +448,7 @@ class Settings:
             if click[0] == 1:
 
                 pygame.mixer.Sound.play(button_confirm_sound)
-            
+
                 if action == "quit":        #Allows the user to quit if they click the QUIT button
                     pygame.quit()
                     quit()
@@ -569,17 +565,17 @@ class Plane:
         if self.stopy == True:
             self.speedy = 0
 
-    def position_check(self):           #Ensures that the player does not exit the screen by comparing player position with 
+    def position_check(self):           #Ensures that the player does not exit the screen by comparing player position with
                                         #boundary position
-        if self.x < 0: 
+        if self.x < 0:
             self.x = 0
-            
+
         elif self.x + self.width > display_width:
             self.x = display_width - self.width
 
         if self.y < 0.1 * display_height:
             self.y = 0.1 * display_height
-            
+
         elif self.y + self.height > display_height:
             self.y = display_height - self.height
 
@@ -617,7 +613,7 @@ class Plane:
 
         if self.health < 0:
             self.health = 0
-            
+
         pygame.draw.rect(gameDisplay, black, (int(0.02 * display_width - 0.01), int(0.02 * display_height - 0.01), 100 + 1, 15 + 1))
         pygame.draw.rect(gameDisplay, self.health_colour, (int(0.02 * display_width), int(0.02 * display_height), self.health, 15))
 
@@ -647,16 +643,16 @@ class Bullet:
                self.speed = 15
            else:
                self.speed = 10
-               
+
            self.y -= self.speed         #Adjusts the position based on the current speed
            self.position_check()
            self.enemy_check()
-           
+
            if self.missile > 0:
                self.image = missile_img                 #Selects the image for the bullet depending on whether or not
            else:                                        #it is a shell or a missile
                self.image = shell_img
-           
+
            gameDisplay.blit(self.image, (self.x, self.y))
 
     def position_check(self):           #Enables the player to shoot again if the current bullet exits the screen
@@ -702,7 +698,7 @@ class Bullet:
                     enemy2.health -= 10
                     self.missile -= 1
                 self.fire = False
-       
+
 class PowerUp:
 
     def __init__(self):
@@ -801,13 +797,13 @@ class PowerUp:
 
             if player.x < self.x < player.x + player.width and player.y < self.y < player.y + player.height:
                 self.boost_check()
-                    
+
             elif player.x < self.x + self.width < player.x + player.width and player.y < self.y < player.y + player.height:
                 self.boost_check()
-           
+
             elif player.x < self.x < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
                 self.boost_check()
-                
+
             elif player.x < self.x + self.width < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
                 self.boost_check()
 
@@ -826,7 +822,7 @@ class PowerUp:
             self.freeze = True
         if self.type == "SpeedBoost":
             self.speed_boost = True
-        self.present = False       
+        self.present = False
 
 class ROF:
 
@@ -846,22 +842,22 @@ class ROF:
         self.enemyV = False
         self.enemy2 = False
         self.enemy3 = False
-        
+
     def render(self):
 
         if self.counter == 3:           #Displays the appropriate number of available rings of fire based on the number of rings that the player has used
-            
+
             gameDisplay.blit(self.symbol, (int(0.022 * display_width), int(0.07 * display_height)))
             gameDisplay.blit(self.symbol, (int(0.022 * display_width + 20), int(0.07 * display_height)))
             gameDisplay.blit(self.symbol, (int(0.022 * display_width + 40), int(0.07 * display_height)))
 
         elif self.counter == 2:
-            
+
             gameDisplay.blit(self.symbol, (int(0.022 * display_width), int(0.07 * display_height)))
             gameDisplay.blit(self.symbol, (int(0.022 * display_width + 20), int(0.07 * display_height)))
 
         elif self.counter == 1:
-            
+
             gameDisplay.blit(self.symbol, (int(0.022 * display_width), int(0.07 * display_height)))
 
         if self.present == True:        #Calculates the distances from each of the enemy plnnes to the player plane
@@ -905,7 +901,7 @@ class ROF:
                 self.enemyV = False
                 self.enemy2 = False
                 self.enemy3 = False
-        
+
 class EnemyH:
 
     def __init__(self):
@@ -944,22 +940,22 @@ class EnemyH:
             if self.e_counter == 15:            #Sets a timer to determine when to enlarge the explosion and when to stop it
 
                 self.image = explosion2_e1_img
-                self.x = self.x + explosion_e1_width / 2 - explosion2_e1_width / 2 
-                self.y = self.y + explosion_e1_height / 2 - explosion2_e1_height / 2 
+                self.x = self.x + explosion_e1_width / 2 - explosion2_e1_width / 2
+                self.y = self.y + explosion_e1_height / 2 - explosion2_e1_height / 2
 
             elif self.e_counter == 30:
-            
+
                 self.present = False
                 self.explosion = False
                 self.e_counter = 0
-            
+
         self.position_check()               #Calls the defined methods
         self.position_selector()
 
         if powerUp.freeze == True or ring_of_fire.present == True or self.explosion == True:        #Stops the enemy plane if the freeze powerup or ring or fire
             self.speed = 0                                                                          #has been activated or the enemy plane is hit
 
-        elif powerUp.freeze == False and self.speed == 0:           #Sets the speed back to a non zero value if the freeze 
+        elif powerUp.freeze == False and self.speed == 0:           #Sets the speed back to a non zero value if the freeze
             if self.direction == "right":                           #powerup is no longer active
                 self.speed = 4
             elif self.direction == "left":
@@ -1000,10 +996,10 @@ class EnemyH:
 
             if self.x == x_position_list[0]:
                 self.speed = 4
-                
+
                 if self.direction == "up":
                     self.image = pygame.transform.rotate(self.image, 270)
-                    
+
                 if self.direction == "down":
                     self.image = pygame.transform.rotate(self.image, 90)
 
@@ -1017,13 +1013,13 @@ class EnemyH:
 
                 if self.direction == "up":
                     self.image = pygame.transform.rotate(self.image, 90)
-                    
+
                 if self.direction == "down":
                     self.image = pygame.transform.rotate(self.image, 270)
 
                 if self.direction == "right":
                     self.image = pygame.transform.rotate(self.image, 180)
-                
+
                 self.direction = "left"
 
             self.present = True
@@ -1033,13 +1029,13 @@ class EnemyH:
 
         if self.image != transparent_img and self.image != explosion_e1_img and self.image != explosion2_e1_img:
 
-            if self.x + self.width + 15 < 0 or self.x - 15 > display_width: 
+            if self.x + self.width + 15 < 0 or self.x - 15 > display_width:
                 self.present = False
 
             elif player.x < self.x < player.x + player.width and player.y < self.y < player.y + player.height:
                 player.crash = True
                 self.crash = True
-            
+
             elif player.x < self.x + self.width < player.x + player.width and player.y < self.y < player.y + player.height:
                 player.crash = True
                 self.crash = True
@@ -1047,7 +1043,7 @@ class EnemyH:
             elif player.x < self.x < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
                 player.crash = True
                 self.crash = True
-          
+
             elif player.x < self.x + self.width < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
                 player.crash = True
                 self.crash = True
@@ -1090,11 +1086,11 @@ class EnemyV:
             if self.e_counter == 15:
 
                 self.image = explosion2_e1_img
-                self.x = self.x + explosion_e1_width / 2 - explosion2_e1_width / 2 
-                self.y = self.y + explosion_e1_height / 2 - explosion2_e1_height / 2 
+                self.x = self.x + explosion_e1_width / 2 - explosion2_e1_width / 2
+                self.y = self.y + explosion_e1_height / 2 - explosion2_e1_height / 2
 
             elif self.e_counter == 30:
-            
+
                 self.present = False
                 self.explosion = False
                 self.e_counter = 0
@@ -1120,7 +1116,7 @@ class EnemyV:
             self.image = transparent_img
 
         elif self.present == False and enemyBulletV.fire == False and enemy2.present == False:      #Initiates a new EnemyV plane if no EnemyV plane is present
-            
+
             self.image = pygame.transform.rotate(enemy_img, 180)
             self.y = -100
 
@@ -1129,7 +1125,7 @@ class EnemyV:
                 self.wait = False
 
             x_position_list = [0.2 * display_width, 0.5 * display_width, 0.8 * display_width]
-          
+
             self.x = x_position_list[random.randrange(0,3)]         #Selects a random horizontal position for the enemy plane
 
             self.speed = 4
@@ -1141,13 +1137,13 @@ class EnemyV:
 
         if self.image != transparent_img and self.image != explosion_e1_img and self.image != explosion2_e1_img:
 
-            if self.y > display_height: 
+            if self.y > display_height:
                 self.present = False
 
             elif player.x < self.x < player.x + player.width and player.y < self.y < player.y + player.height:
                 player.crash = True
                 self.crash = True
-            
+
             elif player.x < self.x + self.width < player.x + player.width and player.y < self.y < player.y + player.height:
                 player.crash = True
                 self.crash = True
@@ -1155,7 +1151,7 @@ class EnemyV:
             elif player.x < self.x < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
                 player.crash = True
                 self.crash = True
-          
+
             elif player.x < self.x + self.width < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
                 player.crash = True
                 self.crash = True
@@ -1202,11 +1198,11 @@ class Enemy2:
             if self.e_counter == 15:
 
                 self.image = explosion2_e2_img
-                self.x = self.x + explosion_e2_width / 2 - explosion2_e2_width / 2 
-                self.y = self.y + explosion_e2_height / 2 - explosion2_e2_height / 2 
+                self.x = self.x + explosion_e2_width / 2 - explosion2_e2_width / 2
+                self.y = self.y + explosion_e2_height / 2 - explosion2_e2_height / 2
 
             elif self.e_counter == 30:
-            
+
                 self.present = False
                 self.explosion = False
                 self.e_counter = 0
@@ -1218,7 +1214,7 @@ class Enemy2:
         self.position_check()
 
         if self.explosion == False:
-        
+
             self.health_bar()               #Draws the health bar for the enemy plane
 
         if self.present == True:
@@ -1234,7 +1230,7 @@ class Enemy2:
                     self.speedx = 2
                 if self.x > self.target_position:
                     self.speedx = -2
-                
+
                 self.movex = False
 
             if self.x == self.target_position and self.y == 0.15 * display_height:          #Triggers the enemy plane to stop and fire once it has reached its
@@ -1305,7 +1301,7 @@ class Enemy2:
                     self.health -= 20
 
                 self.time_counter += 1
-                    
+
             elif self.x < player.x + player.width < self.x + self.width and self.y < player.y < self.y + self.height:
 
                 if self.time_counter == 5 or self.time_counter == 95 or self.time_counter == 195 or self.time_counter == 295 or self.time_counter == 395:
@@ -1313,7 +1309,7 @@ class Enemy2:
                     self.health -= 20
 
                 self.time_counter += 1
-           
+
             elif self.x < player.x < self.x + self.width and self.y < player.y + player.height < self.y + self.height:
 
                 if self.time_counter == 5 or self.time_counter == 95 or self.time_counter == 195 or self.time_counter == 295 or self.time_counter == 395:
@@ -1321,7 +1317,7 @@ class Enemy2:
                     self.health -= 20
 
                 self.time_counter += 1
-          
+
             elif self.x < player.x + player.width < self.x + self.width and self.y < player.y + player.height < self.y + self.height:
 
                 if self.time_counter == 5 or self.time_counter == 95 or self.time_counter == 195 or self.time_counter == 295 or self.time_counter == 395:
@@ -1340,7 +1336,7 @@ class Enemy2:
                 self.health_colour = yellow
             else:
                 self.health_colour = red
-                
+
             pygame.draw.rect(gameDisplay, self.health_colour, (self.x, self.y - 10, self.health, 7))
 
 class Enemy3:
@@ -1379,11 +1375,11 @@ class Enemy3:
             if self.e_counter == 15:
 
                 self.image = explosion2_e1_img
-                self.x = self.x + explosion_e1_width / 2 - explosion2_e1_width / 2 
-                self.y = self.y + explosion_e1_height / 2 - explosion2_e1_height / 2 
+                self.x = self.x + explosion_e1_width / 2 - explosion2_e1_width / 2
+                self.y = self.y + explosion_e1_height / 2 - explosion2_e1_height / 2
 
             elif self.e_counter == 30:
-            
+
                 self.present = False
                 self.explosion = False
                 self.e_counter = 0
@@ -1418,10 +1414,10 @@ class Enemy3:
             self.special_number = random.randrange(0,300)           #Selects a random number from 0 to 300
 
             if self.special_number == 5:                            #Initiates a new Enemy3 plane if that number is 5
-            
+
                 x_number = random.randrange(0,2)
                 y_number = random.randrange(0,2)
-            
+
                 x_position_list = [-100, display_width + 100]
                 y_position_list = [0.65 * display_height, 0.87 * display_height]
 
@@ -1446,7 +1442,7 @@ class Enemy3:
 
             elif self.speed == -2 and self.x == display_width - self.width:
                 self.speed = 0
-                  
+
 class EnemyBulletH:
 
     def __init__(self):
@@ -1461,8 +1457,8 @@ class EnemyBulletH:
 
     def render(self):
 
-        if enemyH.fire_counter == 0:                                #Sets the position of the EnemyH bullet to the front of the EnemyH plane if 
-                                                                    #EnemyH has not yet fired 
+        if enemyH.fire_counter == 0:                                #Sets the position of the EnemyH bullet to the front of the EnemyH plane if
+                                                                    #EnemyH has not yet fired
             self.x = enemyH.x
             self.y = enemyH.y + enemyH.height/2 - self.height/2 + 7
             self.fire = True
@@ -1481,7 +1477,7 @@ class EnemyBulletH:
             self.x += self.speed                                    #Adjusts the position of the bullet according to its speed
             gameDisplay.blit(self.image, (self.x, self.y))          #Blits the bullet to the screen
             player.hit = False
-            
+
     def direction_check(self):                              #Sets the speed and orientation of the bullet according to the direction of
                                                             #motion of EnemyH
         if enemyH.direction == "right":
@@ -1491,7 +1487,7 @@ class EnemyBulletH:
         elif enemyH.direction == "left":
             self.speed = -8
             self.image = pygame.transform.rotate(shell_img, 90)
-        
+
     def position_check(self):           #Recognizes that EnemyH is no longer firing if the bullet has left the screen
 
         if enemyH.direction == "right" and self.x - self.width > display_width or enemyH.direction == "left" and self.x < 0:
@@ -1504,7 +1500,7 @@ class EnemyBulletH:
             if self.fire == True:
                 player.hit = True
                 self.fire = False
-            
+
         elif player.x < self.x + self.width < player.x + player.width and player.y < self.y < player.y + player.height:
             if self.fire == True:
                player.hit = True
@@ -1514,7 +1510,7 @@ class EnemyBulletH:
             if self.fire == True:
                 player.hit = True
                 self.fire = False
-          
+
         elif player.x < self.x + self.width < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
             if self.fire == True:
                 player.hit = True
@@ -1550,13 +1546,13 @@ class EnemyBulletV:
                self.speed = 0
            else:
                self.speed = 8           #Sets the speed back to the appropriate non zero value once the freeze powerup or ring of fire is no longer active
-                                                            
+
            self.y += self.speed                                     #Adjusts the position of the bullet according to its speed
            gameDisplay.blit(self.image, (self.x, self.y))           #Blits the bullet to the screen
            player.hit = False
-            
+
     def position_check(self):           #Recognizes that EnemyV is no longer firing if the bullet has left the screen
-                                                                                
+
         if self.y > display_height:
 
             self.fire = False
@@ -1567,7 +1563,7 @@ class EnemyBulletV:
             if self.fire == True:
                 player.hit = True
                 self.fire = False
-            
+
         elif player.x < self.x + self.width < player.x + player.width and player.y < self.y < player.y + player.height:
             if self.fire == True:
                player.hit = True
@@ -1577,7 +1573,7 @@ class EnemyBulletV:
             if self.fire == True:
                 player.hit = True
                 self.fire = False
-          
+
         elif player.x < self.x + self.width < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
             if self.fire == True:
                 player.hit = True
@@ -1620,10 +1616,10 @@ class EnemyBullet2:
         if self.firing == True:
 
             self.speed = 5              #Sets the speed back to the appropriate non zero value if the freeze powerup or ring of fire is no longer active
-                                                                                
+
             if powerUp.freeze == True or ring_of_fire.present == True:          #Stops the bullet if the freeze powerup or ring of fire has been activated
                 self.speed = 0
-        
+
             self.y += self.speed                                        #Adjusts the position of the bullet according to it speed
             gameDisplay.blit(self.image, (self.x, self.y))              #Blits the bullets to the screen
             gameDisplay.blit(self.image2, (self.x2, self.y))
@@ -1674,7 +1670,7 @@ class EnemyBullet3:
         self.position_check()
         self.player_check()
 
-        if self.fire_counter == 5 and enemy3.present == True:           #Recognizes that a new Enemy3 has been initiated and resets the 
+        if self.fire_counter == 5 and enemy3.present == True:           #Recognizes that a new Enemy3 has been initiated and resets the
                                                                         #appropriate attributes
             self.fire = False
             self.fire_counter = 0
@@ -1698,15 +1694,15 @@ class EnemyBullet3:
     def position_selector(self):
 
         if self.fire == False and enemy3.present == True and enemy3.movex == False:
-            
+
             y_position_list = [enemy3.y + 0.5 * enemy3.height, enemy3.y + 0.7 * enemy3.height]
 
             y_number = random.randrange(0,2)
-                
+
             self.y = y_position_list[y_number]          #Sets a random vertical position so that the missile may fire from one of the two cannons
-                                                            
+
             if enemy3.x < display_width / 2:            #Sets the speed and orientation of the missile according to the horizontal position of Enemy3
-                                                            
+
                 self.x = enemy3.x
 
                 if self.direction == "up":
@@ -1742,9 +1738,9 @@ class EnemyBullet3:
                 self.speed = -5
 
             self.fire = True
-            
+
     def position_check(self):           #Checks to see if the missile has left the screen and notifies Enemy3 that it may fire again if this is the case
-                                                                                
+
         if enemy3.x == 0 or enemy3.x == display_width - enemy3.width:
 
             if self.fire == True:
@@ -1754,18 +1750,18 @@ class EnemyBullet3:
                     self.fire_counter += 1
 
     def player_check(self):             #Checks to see if the missile has collided with the player plane and responds accordingly
-                                                                                
+
         if enemy3.x == 0 or enemy3.x == display_width - enemy3.width:
 
             if self.fire == True:
 
                 if player.x < self.x < player.x + player.width and player.y < self.y < player.y + player.height:
-                
+
                     if player.shield == False:
                         player.health -= 20
                     elif player.shield == True:
                         player.shield_health -= 20
-            
+
                     self.fire = False
                     self.fire_counter += 1
 
@@ -1791,24 +1787,24 @@ class Mine:
 
             pygame.mixer.Sound.play(hit_sound2)
 
-            self.image = explosion_e2_img 
+            self.image = explosion_e2_img
             self.explosion = True
             self.hit = False
             self.x -= 20
             self.y -= 20
 
         if self.explosion == True:                      #Sets a timer to determine when to enlarge the explosion and when to stop it
-                                                        #Then deducts from the player's health accordingly 
+                                                        #Then deducts from the player's health accordingly
             self.e_counter += 1
 
             if self.e_counter == 15:
 
-                self.image = explosion2_e2_img 
-                self.x = self.x + explosion_e2_width / 2 - explosion2_e2_width / 2 
-                self.y = self.y + explosion_e2_height / 2 - explosion2_e2_height / 2  
+                self.image = explosion2_e2_img
+                self.x = self.x + explosion_e2_width / 2 - explosion2_e2_width / 2
+                self.y = self.y + explosion_e2_height / 2 - explosion2_e2_height / 2
 
             elif self.e_counter == 30:
-            
+
                 self.present = False
                 self.explosion = False
                 self.e_counter = 0
@@ -1832,10 +1828,10 @@ class Mine:
                 self.speedx = -1
 
         if self.present == True:
-            
+
             self.x += self.speedx                                   #Adjusts the position of the mine according to its speed
             gameDisplay.blit(self.image, (self.x, self.y))          #Blits the mine to the screen
-            
+
 
     def position_selector(self):
 
@@ -1870,7 +1866,7 @@ class Mine:
                 else:
                     self.player_hit = True
                 self.hit = True
-                    
+
         elif player.x < self.x + self.width < player.x + player.width and player.y < self.y < player.y + player.height:
             if self.present == True and self.image == mine_img:
                 if player.shield == True:
@@ -1878,7 +1874,7 @@ class Mine:
                 else:
                     self.player_hit = True
                 self.hit = True
-           
+
         elif player.x < self.x < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
             if self.present == True and self.image == mine_img:
                 if player.shield == True:
@@ -1886,7 +1882,7 @@ class Mine:
                 else:
                     self.player_hit = True
                 self.hit = True
-          
+
         elif player.x < self.x + self.width < player.x + player.width and player.y < self.y + self.height < player.y + player.height:
             if self.present == True and self.image == mine_img:
                 if player.shield == True:
@@ -1940,42 +1936,42 @@ tutorial = Tutorial()
 # LOOPS #
 
 def gameLoop():
-    
+
     gameExit = False
-    
+
     while not gameExit:
 
         for event in pygame.event.get():
-            
+
             if event.type == pygame.QUIT:
                 gameExit = True
-            
+
             if event.type == pygame.KEYDOWN:        #Arrow key event handling that adjusts the direction of the player plane based on the keys that are pressed
-                
-                if pygame.key.get_pressed()[pygame.K_LEFT] != 0: 
+
+                if pygame.key.get_pressed()[pygame.K_LEFT] != 0:
                     player.directionx = "left"
                     player.stopx = False
                     player.stopy = True
-                    
-                if pygame.key.get_pressed()[pygame.K_RIGHT] != 0: 
+
+                if pygame.key.get_pressed()[pygame.K_RIGHT] != 0:
                     player.directionx = "right"
                     player.stopx = False
                     player.stopy = True
-                    
-                if pygame.key.get_pressed()[pygame.K_UP] != 0: 
+
+                if pygame.key.get_pressed()[pygame.K_UP] != 0:
                     player.directiony = "up"
                     player.stopy = False
                     player.stopx = True
-                    
-                if pygame.key.get_pressed()[pygame.K_DOWN] != 0: 
+
+                if pygame.key.get_pressed()[pygame.K_DOWN] != 0:
                     player.directiony = "down"
                     player.stopy = False
                     player.stopx = True
-                    
+
                 if event.key == pygame.K_SPACE:     #Pressing the space bar allows the player to shoot
 
                     if bullet.fire == False:
-                    
+
                         bullet.x = player.x + player.width/2 - bullet.width/2
                         bullet.y = player.y
                         bullet.fire = True
@@ -1986,13 +1982,13 @@ def gameLoop():
 
                         ring_of_fire.present = True
                         ring_of_fire.counter -= 1
-                
+
                 if pygame.key.get_pressed()[pygame.K_LEFT] == 0 and pygame.key.get_pressed()[pygame.K_RIGHT] == 0:      #Allows for smoother plane motion
                     player.stopx = True
-                    
+
                 if pygame.key.get_pressed()[pygame.K_UP] == 0 and pygame.key.get_pressed()[pygame.K_DOWN] == 0:
                     player.stopy = True
-            
+
         gameDisplay.blit(game_background, (0,0))
 
         if player.health <= 0:      #Pauses the game for 3 seconds before going to the game over screen after the player has lost their health
@@ -2009,7 +2005,7 @@ def gameLoop():
 
                     gameExit = True
                     game_over.menu = False
-           
+
         else:
 
             if tutorial.run == False:           #Ensures that the tutorial images will not appear during the game if Tutorial is unchecked in settings
@@ -2024,18 +2020,18 @@ def gameLoop():
                 tutorial.tutorial_8 = True
 
             if tutorial.tutorial_1 == True:     #Player may move and shoot and activate their ring of fire once the game begins
-        
+
                 player.render()
                 bullet.render()
                 ring_of_fire.render()
-                
+
             if tutorial.tutorial_2 == True and player.time_counter >= 200:      #EnemyH is initiated 200 ms after the game begins
-            
+
                 enemyH.render()
                 enemyBulletH.render()
 
                 if player.time_counter >= 300:      #EnemyV is initiated 300 ms after the game begins
-                
+
                     enemyV.render()
                     enemyBulletV.render()
 
@@ -2044,12 +2040,12 @@ def gameLoop():
                 powerUp.update()
 
             if tutorial.tutorial_3 == True and player.time_counter >= 600:      #Enemy2 is initiated 600 ms after the game begins
-                
+
                 enemy2.render()
                 enemyBullet2.render()
 
             if tutorial.tutorial_4 == True and player.time_counter >= 800:      #Enemy3 is initiated 800 ms after the game begins
-                
+
                 enemy3.render()
                 enemyBullet3.render()
 
@@ -2148,7 +2144,7 @@ def gameLoop():
 
                 pygame.time.delay(5000)
                 tutorial.counter_8 = False
-            
+
         clock.tick(60)
 
 def appLoop():
@@ -2172,8 +2168,7 @@ def appLoop():
 
         gameLoop()
 
-pygame.mixer.music.load("Airstrike_Music.wav")      #Plays music during the game
+pygame.mixer.music.load("Audio/Airstrike_Music.wav")      #Plays music during the game
 pygame.mixer.music.play(-1)                         #Allows song file to loop to the beginning everytime it finishes
 
 appLoop()
-                       
